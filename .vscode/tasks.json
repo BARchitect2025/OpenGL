@@ -16,7 +16,8 @@
                 "-lGL",
                 "-lglut",
                 "${workspaceFolder}/glad.c",
-                "-I${workspaceFolder}/include"
+                "-I${workspaceFolder}/include",
+                "-lassimp"
             ],
             "options": {
                 "cwd": "${fileDirname}"
